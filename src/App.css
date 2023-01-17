@@ -1,0 +1,10 @@
+.app{
+  /* background-color: #F6F8FC; */
+  background-color: #F6F8FC;
+  height: 100vh;
+}
+
+.app__body{
+  display: flex;
+ 
+}

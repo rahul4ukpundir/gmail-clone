@@ -1,0 +1,33 @@
+.emailRow{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  
+}
+.emailList__title{
+    flex:.2;
+}
+.emailList__description{
+    flex:1;
+}
+
+.marginright20{
+  margin-right: 10px;
+  font-size: 1;
+}
+
+label{
+    font-size: 12px;
+}
+.emailList__time>label{
+    margin-right: 10px;
+}
+
+.MuiSvgIcon-root {
+    font-size: 20px  !important;
+    color: gray;
+}
+
+.emailRow:hover{
+    box-shadow: 0px 4px 4px -2px rgb(0,0,0,0.24);
+}

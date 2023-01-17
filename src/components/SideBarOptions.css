@@ -1,0 +1,40 @@
+.sideBarOptions{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.sideBarOptions:hover,
+.sideBarOptions:hover>p,
+.sideBarOptions:hover>label,
+.sidebar__active,
+.sidebar__active>p,
+.sidebar__active>label
+
+{
+    background-color: #fcecec;
+    color: #c04b37;
+}
+
+.sideBarOptions>label{
+    flex:1;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.sideBarOptions>p{
+    display: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.sideBarOptions:hover>p{
+    display: inline;
+}
+
+.sidebar__active>p{
+    display: inline !important;
+}

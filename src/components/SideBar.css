@@ -1,0 +1,22 @@
+.sideBar{    
+    
+    flex:.2
+}
+
+.sideBar_compose_button{
+    display: flex;
+    align-items: center;
+    padding:8px;
+    background-color: #c2e7ff;
+    max-width: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.sideBar_compose_button>h3{
+    font-size: 14px;
+    margin-left:10px;
+    font-weight: 600;
+}
+

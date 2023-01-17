@@ -1,0 +1,36 @@
+.mail{
+    flex:1;
+}
+.mail__header{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.mail__header__left{
+    flex:1;
+}
+
+.mail__header>.MuiSvgIcon-root{
+    margin-right:20px  !important;
+    color:gray;
+    font-size: 16px !important;
+}
+
+.mail__header__left>.MuiSvgIcon-root{
+    margin-right:20px  !important;
+    color:gray;
+    font-size: 16px !important;
+}
+
+
+.mail__header__left>a>.MuiSvgIcon-root{
+    margin-right:20px  !important;
+    color:gray;
+    font-size: 16px !important;
+  
+}
+.mail_body_header{
+    display: flex;
+    align-items: center;
+    margin:50px;
+}
